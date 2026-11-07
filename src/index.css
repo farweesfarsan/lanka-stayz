@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-surface font-sans text-ink antialiased; }
+}
+@layer components {
+  .eyebrow { @apply text-[11px] font-semibold uppercase leading-[14px]; }
+  .h2 { @apply font-serif text-3xl font-semibold tracking-[-0.6px] text-primary md:text-[40px] md:leading-[48px]; }
+}

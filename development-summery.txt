@@ -1,0 +1,16 @@
+Development Summary
+
+I started by reviewing the existing website and keeping its React and Tailwind structure. 
+I then added individual detail content and working links for each property, connected the homepage search to the stays results, 
+and added a booking-request form with required-field validation and a confirmation message. 
+I also kept the listings and booking requests as sample data, so the current version demonstrates the user flow but does not process real reservations.
+
+Improvements for a Full Commercial Website
+
+For a commercial launch, I would build a backend and database to manage properties, guest accounts, bookings, availability, and pricing.
+Booking requests should be saved and available to guests and property owners, with clear status updates and email notifications.
+I would add user accounts and store wishlisted properties for each guest, so their saved stays remain available when they return.
+
+I would also integrate a secure payment gateway and connect successful payments to confirmed bookings. Before launch, 
+I would add checks to prevent double-booking, protect personal and payment information, provide booking cancellation and refund handling, 
+and test the complete booking process across desktop and mobile.
