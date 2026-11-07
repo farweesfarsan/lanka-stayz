@@ -214,7 +214,7 @@ export default function BookingRequestModal({
 
   return (
     <div
-      className="fixed inset-0 z-[80] flex items-center justify-center overflow-y-auto bg-primary/60 p-4 backdrop-blur-sm"
+      className="fixed inset-0 z-[80] flex items-start justify-center overflow-y-auto bg-primary/60 px-4 pt-24 pb-4 backdrop-blur-sm"
       onMouseDown={(event) => {
         if (event.target === event.currentTarget) onClose();
       }}
@@ -223,7 +223,7 @@ export default function BookingRequestModal({
         role="dialog"
         aria-modal="true"
         aria-labelledby="booking-request-title"
-        className="my-auto max-h-[92vh] w-full max-w-xl overflow-y-auto rounded-3xl bg-white p-5 shadow-float sm:p-8"
+       className="mt-4 mb-auto max-h-[calc(100vh-8rem)] w-full max-w-xl overflow-y-auto rounded-3xl bg-white p-5 shadow-float sm:p-8"
       >
         {/* Header */}
         <div className="mb-6 flex items-start justify-between gap-4">
